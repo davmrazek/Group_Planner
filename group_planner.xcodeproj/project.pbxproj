@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5E7BD9B02E1EE54700E0EF9A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BD9AF2E1EE54300E0EF9A /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5E2970C62E142A15006C0330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		5E2970B72E142A12006C0330 /* group_planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = group_planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2970C52E142A15006C0330 /* group_plannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = group_plannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2970CF2E142A15006C0330 /* group_plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = group_plannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7BD9AF2E1EE54300E0EF9A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		5E2970AE2E142A12006C0330 = {
 			isa = PBXGroup;
 			children = (
+				5E7BD9AF2E1EE54300E0EF9A /* .gitignore */,
 				5E2970B92E142A12006C0330 /* group_planner */,
 				5E2970C82E142A15006C0330 /* group_plannerTests */,
 				5E2970D22E142A15006C0330 /* group_plannerUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7BD9B02E1EE54700E0EF9A /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
